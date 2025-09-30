@@ -19,7 +19,7 @@ Medical appointment booking platform built with **Next.js 15**, **TypeORM**, **P
 
 ### 1. Cloner le projet 
 ```bash
-git clone https://github.com/<ton-compte>/<ton-repo>.git
+git clone [https://github.com/<ton-compte>/<ton-repo>.git](https://github.com/malikakika/epwa-appointment-app.git)
 cd epwa-rdv
 ```
 ###  2. Installer les dépendances 
