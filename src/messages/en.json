@@ -1,0 +1,98 @@
+{
+  "landing": {
+    "title": "Easily connect patients and doctors",
+    "subtitle": "Book appointments in just a few clicks, manage your schedule, stay stress-free.",
+    "ctaPatient": "I am a patient",
+    "ctaDoctor": "I am a practitioner",
+    "featuresTitle": "Features",
+    "featureSearchTitle": "Doctor search",
+    "featureSearchDesc": "Find a doctor by specialty and location.",
+    "featureBookingTitle": "Book an appointment",
+    "featureBookingDesc": "Choose a time slot from available options.",
+    "featureManageTitle": "Easy management",
+    "featureManageDesc": "Your appointments, notifications, history… all in one place.",
+    "featureSecurityTitle": "Security & confidentiality",
+    "featureSecurityDesc": "Your medical data is protected and securely hosted."
+  },
+  "navbar": {
+    "logo": "EPWA Health",
+    "practitioner": "Are you a practitioner?",
+    "help": "Help Center",
+    "login": "Login"
+  },
+  "login":{
+  "title": "Login",
+  "email": "Email",
+  "password": "Password",
+  "submit": "Sign in",
+  "forgotPassword": "Forgot your password?",
+  "noAccount": "No account?",
+  "register": "Register",
+  "chooseRole": "Choose your role",
+  "registerPatient": "Create a Patient account",
+  "registerDoctor": "Create a Doctor account",
+  "error": "Incorrect email or password"
+},
+
+  "registerDoctor": {
+    "title": "Create a practitioner account",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phone": "Phone",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "streetNumber": "No.",
+    "street": "Street",
+    "postalCode": "Postal code",
+    "city": "City",
+    "specialty": "Specialty",
+    "rpps": "RPPS number",
+    "submit": "Sign up",
+    "alreadyAccount": "Already have an account?",
+    "login": "Log in",
+    "success": "Doctor account successfully created ",
+    "passwordMismatch": "Passwords do not match."
+  },
+
+  "praticiens": {
+    "offers": "Our offers",
+    "pricing": "Pricing",
+    "login": "Log in",
+    "heroTitle": "Grow your practice with EPWA",
+    "heroSubtitle": "Save time, attract new patients, and simplify your practice management.",
+    "cta": "Create a free account",
+    "benefitsTitle": "Why join EPWA?",
+    "benefit1Title": "More visibility",
+    "benefit1Desc": "Attract new patients thanks to our optimized search engine.",
+    "benefit2Title": "Save time",
+    "benefit2Desc": "Reduce phone calls, let your patients book directly online.",
+    "benefit3Title": "Security",
+    "benefit3Desc": "Health data hosting approved and full protection of your data.",
+    "pricingTitle": "Our offers",
+    "freeTitle": "Free trial",
+    "freeDesc": "1 month free to test all features.",
+    "freeBtn": "Get started",
+    "premiumTitle": "Premium",
+    "premiumDesc": "Monthly subscription with all advanced features to grow your practice.",
+    "premiumBtn": "Choose Premium"
+  },
+
+  "offline": {
+    "title": "You’re offline",
+    "message": "Please reconnect to continue using the application."
+  },
+  "adminLanding": {
+  "heroTitle": "Manage the platform with ease",
+  "heroSubtitle": "Supervise users, track statistics and ensure security.",
+  "cta": "Log in to admin area",
+  "featuresTitle": "Administrator features",
+  "featureUsersTitle": "User management",
+  "featureUsersDesc": "Add, edit and remove patients and practitioners.",
+  "featureStatsTitle": "Advanced statistics",
+  "featureStatsDesc": "Access detailed reports about platform activity.",
+  "featureSecurityTitle": "Enhanced security",
+  "featureSecurityDesc": "Control access and ensure data confidentiality."
+}
+
+}

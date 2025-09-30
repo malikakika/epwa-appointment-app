@@ -1,0 +1,113 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #f0f9ff, #e0f2fe);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  color: #2563eb;
+  cursor: pointer;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.loginBtn {
+  background: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  background: #1e40af;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+}
+
+.heroContent {
+  flex: 1;
+  min-width: 300px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+
+.ctaBtn {
+  background: #2563eb;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.ctaBtn:hover {
+  background: #1e40af;
+}
+
+.heroImage img {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.features {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: #fff;
+}
+
+.features h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #111827;
+}
+
+.featureList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.featureItem {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background: #f9fafb;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}

@@ -1,0 +1,183 @@
+.container {
+  font-family: var(--font-geist-sans, sans-serif);
+  color: #1e293b;
+  background: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.5rem;
+  font-weight: bold;
+  color: #0ea5e9;
+  font-size: 1.25rem;
+}
+
+.logo img {
+  height: 32px;
+  width: auto;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.linkBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #334155;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.linkBtn:hover {
+  color: #0ea5e9;
+}
+
+.loginBtn {
+  background: #0ea5e9;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  background: #0369a1;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+}
+
+.heroContent {
+  max-width: 500px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0ea5e9;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #475569;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btnPrimary {
+  background: #0ea5e9;
+  border: none;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btnPrimary:hover {
+  background: #0369a1;
+}
+
+.btnSecondary {
+  background: #f1f5f9;
+  border: none;
+  color: #1e293b;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btnSecondary:hover {
+  background: #e2e8f0;
+}
+
+.heroImage img {
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+}
+
+.features {
+  padding: 4rem 2rem;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.featuresTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #0ea5e9;
+}
+
+.featureList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.featureItem {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.featureItem h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0ea5e9;
+  margin-bottom: 0.5rem;
+}
+
+.featureItem p {
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroContent {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .heroImage img {
+    max-width: 300px;
+  }
+}

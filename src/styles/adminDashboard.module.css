@@ -1,0 +1,112 @@
+.dashboard {
+  padding: 2rem;
+  font-family: "Inter", sans-serif;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #dc2626;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.card p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.tableContainer {
+  background: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+}
+
+.tableTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.table th {
+  background: #f3f4f6;
+  font-weight: 600;
+  color: #374151;
+}
+
+.table tr:hover td {
+  background: #f9fafb;
+}
+
+.roleAdmin {
+  color: #dc2626;
+  font-weight: 600;
+}
+.roleDoctor {
+  color: #2563eb;
+  font-weight: 600;
+}
+.rolePatient {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.error {
+  color: #dc2626;
+  font-weight: 500;
+}

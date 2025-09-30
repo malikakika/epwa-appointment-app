@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# TypeORM build outputs
+src/db/**/*.js
+src/db/**/*.js.map

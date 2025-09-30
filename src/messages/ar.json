@@ -1,0 +1,97 @@
+{
+  "landing": {
+    "title": "اربط بين المرضى والأطباء بسهولة",
+    "subtitle": "احجز موعدك في بضع نقرات، نظّم جدولك، وكن أكثر راحة.",
+    "ctaPatient": "أنا مريض",
+    "ctaDoctor": "أنا طبيب",
+    "featuresTitle": "الميزات",
+    "featureSearchTitle": "البحث عن الأطباء",
+    "featureSearchDesc": "ابحث عن طبيب حسب التخصص والموقع.",
+    "featureBookingTitle": "حجز موعد",
+    "featureBookingDesc": "اختر وقتًا متاحًا من المواعيد.",
+    "featureManageTitle": "إدارة سهلة",
+    "featureManageDesc": "مواعيدك، إشعاراتك، وسجلك الطبي… كلها في مكان واحد.",
+    "featureSecurityTitle": "الأمان والسرية",
+    "featureSecurityDesc": "بياناتك الطبية محمية ومُستضافة بطريقة آمنة."
+  },
+   "navbar": {
+    "logo": "إي بي دبليو إيه صحة",
+    "practitioner": "هل أنت طبيب؟",
+    "help": "مركز المساعدة",
+    "login": "تسجيل الدخول"
+  },
+"login":{
+  "title": "تسجيل الدخول",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "submit": "تسجيل الدخول",
+  "forgotPassword": "هل نسيت كلمة المرور؟",
+  "noAccount": "ليس لديك حساب؟",
+  "register": "إنشاء حساب",
+  "chooseRole": "اختر الدور",
+  "registerPatient": "إنشاء حساب مريض",
+  "registerDoctor": "إنشاء حساب طبيب",
+  "error": "البريد الإلكتروني أو كلمة المرور غير صحيحة"
+},
+  "registerDoctor": {
+    "title": "إنشاء حساب طبيب",
+    "firstName": "الاسم الأول",
+    "lastName": "الاسم العائلي",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "streetNumber": "رقم",
+    "street": "الشارع",
+    "postalCode": "الرمز البريدي",
+    "city": "المدينة",
+    "specialty": "التخصص",
+    "rpps": "رقم RPPS",
+    "submit": "تسجيل",
+    "alreadyAccount": "هل لديك حساب بالفعل؟",
+    "login": "تسجيل الدخول",
+    "success": "تم إنشاء حساب الطبيب بنجاح ",
+    "passwordMismatch": "كلمتا المرور غير متطابقتين."
+  },
+
+  "praticiens": {
+    "offers": "عروضنا",
+    "pricing": "الأسعار",
+    "login": "تسجيل الدخول",
+    "heroTitle": "طوّر نشاطك الطبي مع EPWA",
+    "heroSubtitle": "وفّر وقتك، اجذب مرضى جدد، وبسّط إدارة عيادتك.",
+    "cta": "أنشئ حسابًا مجانيًا",
+    "benefitsTitle": "لماذا تنضم إلى EPWA؟",
+    "benefit1Title": "المزيد من الظهور",
+    "benefit1Desc": "اجذب مرضى جدد بفضل محرك البحث المحسن لدينا.",
+    "benefit2Title": "توفير الوقت",
+    "benefit2Desc": "قلّل من المكالمات الهاتفية، ودع مرضاك يحجزون مباشرة عبر الإنترنت.",
+    "benefit3Title": "الأمان",
+    "benefit3Desc": "استضافة معتمدة لبيانات الصحة وحماية كاملة لمعلوماتك.",
+    "pricingTitle": "عروضنا",
+    "freeTitle": "تجربة مجانية",
+    "freeDesc": "شهر مجاني لتجربة جميع الميزات.",
+    "freeBtn": "ابدأ الآن",
+    "premiumTitle": "بريميوم",
+    "premiumDesc": "اشتراك شهري مع جميع الميزات المتقدمة لتطوير نشاطك الطبي.",
+    "premiumBtn": "اختر بريميوم"
+  },
+
+  "offline": {
+    "title": "أنت غير متصل",
+    "message": "يرجى إعادة الاتصال لمواصلة استخدام التطبيق."
+  },
+  "adminLanding": {
+  "heroTitle": "إدارة المنصة بكل سهولة",
+  "heroSubtitle": "أشرف على المستخدمين، تابع الإحصائيات وضمن الأمان.",
+  "cta": "تسجيل الدخول إلى لوحة الإدارة",
+  "featuresTitle": "ميزات المسؤول",
+  "featureUsersTitle": "إدارة المستخدمين",
+  "featureUsersDesc": "إضافة، تعديل وحذف المرضى والممارسين.",
+  "featureStatsTitle": "إحصائيات متقدمة",
+  "featureStatsDesc": "الوصول إلى تقارير مفصلة حول نشاط المنصة.",
+  "featureSecurityTitle": "أمان معزز",
+  "featureSecurityDesc": "التحكم في الوصول وضمان سرية البيانات."
+}
+
+}

@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EPWA-RDV
 
-## Getting Started
+Plateforme de prise de rendez-vous médical (Patients  / Médecins  / Admin 🛠) construite avec **Next.js 15**, **TypeORM**, **PostgreSQL** et **Docker**.  
+Medical appointment booking platform built with **Next.js 15**, **TypeORM**, **PostgreSQL**, and **Docker**.
 
-First, run the development server:
+---
+
+##  Fonctionnalités / Features
+
+-  Authentification avec JWT (Patients, Doctors, Admins)  
+- Dashboards personnalisés selon le rôle  
+- Internationalisation (fr, en, ar) avec **next-intl**  
+- Déploiement facile avec Docker  
+- Base de données PostgreSQL (gérée via TypeORM)
+
+---
+
+##  Installation locale 
+
+### 1. Cloner le projet 
+```bash
+git clone https://github.com/<ton-compte>/<ton-repo>.git
+cd epwa-rdv
+```
+###  2. Installer les dépendances 
+```bash
+npm install
+```
+### 3. Configurer l’environnement 
+Crée un fichier .env à la racine du projet :
+```bash 
+DATABASE_URL=postgres://rdv:rdvpass@localhost:5432/rdv
+JWT_SECRET=your_jwt_secret
+ADMIN_SIGNUP_TOKEN=changeme
+```
+### 4. Lancer PostgreSQL en local (optionnel si pas Docker)
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+docker run --name rdv_pg \
+  -e POSTGRES_USER=rdv \
+  -e POSTGRES_PASSWORD=rdvpass \
+  -e POSTGRES_DB=rdv \
+  -p 5432:5432 \
+  -d postgres:16-alpine
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Lancer l’application en développement 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash 
+npm run dev
+```
+ L’app est disponible sur http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ ## Lancer avec DOCKER
 
-## Learn More
+ ### 1. Construire et lancer 
 
-To learn more about Next.js, take a look at the following resources:
+ ```bash 
+ docker-compose up -build 
+ ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. Accéder à l’app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+http://localhost:3000
 
-## Deploy on Vercel
+Base PostgreSQL accessible sur localhost:5432
+PostgreSQL database available at localhost:5432
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---

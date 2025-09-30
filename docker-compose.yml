@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: rdv_pg
+    restart: always
+    environment:
+      POSTGRES_DB: rdv
+      POSTGRES_USER: rdv
+      POSTGRES_PASSWORD: rdvpass
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  app:
+    build: .
+    container_name: rdv_app
+    restart: always
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgres://rdv:rdvpass@db:5432/rdv
+      JWT_SECRET: Kj83nD$#f_49sdFj903!dsaPQLmzx
+      ADMIN_SIGNUP_TOKEN: CreateAdmin123!
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev # en dev; pour prod mets "npm run start"
+
+volumes:
+  pgdata:

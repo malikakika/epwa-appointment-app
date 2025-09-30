@@ -1,0 +1,117 @@
+{
+  "landing": {
+    "title": "Connectez patients et médecins facilement",
+    "subtitle": "Prenez rendez-vous en quelques clics, gérez votre agenda, soyez plus serein.",
+    "ctaPatient": "Je suis patient",
+    "ctaDoctor": "Je suis praticien",
+    "featuresTitle": "Fonctionnalités",
+    "featureSearchTitle": "Recherche de médecins",
+    "featureSearchDesc": "Trouvez un médecin selon votre spécialité et localisation.",
+    "featureBookingTitle": "Prendre rendez-vous",
+    "featureBookingDesc": "Choisissez un créneau parmi les disponibilités.",
+    "featureManageTitle": "Gestion facile",
+    "featureManageDesc": "Vos rendez-vous, notifications, historique… tout en un seul endroit.",
+    "featureSecurityTitle": "Sécurité & confidentialité",
+    "featureSecurityDesc": "Vos données médicales sont protégées et hébergées de façon sécurisée."
+  },
+    "navbar": {
+    "logo": "EPWA Santé",
+    "practitioner": "Vous êtes praticien ?",
+    "help": "Centre d’aide",
+    "login": "Se connecter"
+  },
+"login":{
+  "title": "Connexion",
+  "email": "Email",
+  "password": "Mot de passe",
+  "submit": "Se connecter",
+  "forgotPassword": "Mot de passe oublié ?",
+  "noAccount": "Pas de compte ?",
+  "register": "S'inscrire",
+  "chooseRole": "Choisissez votre rôle",
+  "registerPatient": "Créer un compte Patient",
+  "registerDoctor": "Créer un compte Médecin",
+  "error": "Email ou mot de passe incorrect"
+},
+
+
+ "registerDoctor": {
+    "titleDoctor": "Créer un compte praticien",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer mot de passe",
+    "streetNumber": "N°",
+    "street": "Rue",
+    "postalCode": "Code postal",
+    "city": "Ville",
+    "specialty": "Spécialité",
+    "rpps": "Numéro RPPS",
+    "submit": "S’inscrire",
+    "alreadyAccount": "Vous avez déjà un compte ?",
+    "login": "Se connecter",
+    "success": "Compte médecin créé avec succès 🎉",
+    "passwordMismatch": "Les mots de passe ne correspondent pas."
+  },
+  "registerPatient": {
+    "titlePatient": "Créer un compte patient",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer mot de passe",
+    "streetNumber": "N°",
+    "street": "Rue",
+    "postalCode": "Code postal",
+    "city": "Ville",
+    "submit": "S’inscrire",
+    "alreadyAccount": "Vous avez déjà un compte ?",
+    "login": "Se connecter",
+    "success": "Compte patient créé avec succès 🎉",
+    "passwordMismatch": "Les mots de passe ne correspondent pas."
+  },
+  "praticiens": {
+    "offers": "Nos offres",
+    "pricing": "Tarifs",
+    "login": "Se connecter",
+    "heroTitle": "Développez votre activité avec EPWA",
+    "heroSubtitle": "Gagnez du temps, attirez de nouveaux patients et simplifiez la gestion de votre cabinet.",
+    "cta": "Créer un compte gratuit",
+    "benefitsTitle": "Pourquoi rejoindre EPWA ?",
+    "benefit1Title": "+ de visibilité",
+    "benefit1Desc": "Attirez de nouveaux patients grâce à notre moteur de recherche optimisé.",
+    "benefit2Title": "Gain de temps",
+    "benefit2Desc": "Réduisez les appels téléphoniques, laissez vos patients réserver directement en ligne.",
+    "benefit3Title": "Sécurité",
+    "benefit3Desc": "Hébergement agréé données de santé et protection complète de vos données.",
+    "pricingTitle": "Nos offres",
+    "freeTitle": "Essai gratuit",
+    "freeDesc": "1 mois offert pour tester toutes les fonctionnalités.",
+    "freeBtn": "Je démarre",
+    "premiumTitle": "Premium",
+    "premiumDesc": "Abonnement mensuel avec toutes les fonctionnalités avancées pour développer votre activité.",
+    "premiumBtn": "Choisir Premium"
+  },
+    "offline": {
+    "title": "Vous êtes hors ligne",
+    "message": "Veuillez vous reconnecter pour continuer à utiliser l'application."
+  },
+  "adminLanding": {
+  "heroTitle": "Gérez la plateforme en toute simplicité",
+  "heroSubtitle": "Supervisez les utilisateurs, suivez les statistiques et assurez la sécurité.",
+  "cta": "Se connecter à l’espace admin",
+  "featuresTitle": "Fonctionnalités administrateur",
+  "featureUsersTitle": "Gestion des utilisateurs",
+  "featureUsersDesc": "Ajoutez, modifiez et supprimez patients et praticiens.",
+  "featureStatsTitle": "Statistiques avancées",
+  "featureStatsDesc": "Accédez à des rapports détaillés sur l’activité de la plateforme.",
+  "featureSecurityTitle": "Sécurité renforcée",
+  "featureSecurityDesc": "Contrôlez les accès et garantissez la confidentialité des données."
+}
+
+
+
+}
