@@ -13,18 +13,21 @@ async function getMessages(locale: string) {
   }
 }
 
-export default async function LocaleLayout(props: any) {
-  const { children, params } = props as {
-    children: React.ReactNode;
-    params: { locale: string };
-  };
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>; // 👈 params est async
+}) {
+  const { locale } = await params; // 👈 on attend params
 
-  const messages = await getMessages(params.locale);
+  const messages = await getMessages(locale);
 
   return (
-    <html lang={params.locale}>
+    <html lang={locale}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <NextIntlClientProvider locale={params.locale} messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
       </body>
